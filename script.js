@@ -2,7 +2,7 @@ let speed = 0;
 const propeller = document.getElementById('propeller');
 
 document.body.addEventListener('click', () => {
-    speed += 1; // Tıklama başına hız artırılır
+    speed += 100; // Tıklama başına hız artırılır
 });
 
 function updatePropeller() {
