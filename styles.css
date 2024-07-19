@@ -9,8 +9,8 @@ body, html {
 
 .container {
     position: relative;
-    width: 800px;
-    height: 800px;
+    width: 400px; /* Fotoğraf boyutunu artırın */
+    height: 400px; /* Fotoğraf boyutunu artırın */
 }
 
 .propeller {
@@ -23,3 +23,4 @@ body, html {
     left: 0;
     transition: transform 0.1s linear;
 }
+
