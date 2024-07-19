@@ -9,8 +9,8 @@ body, html {
 
 .container {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
 }
 
 .propeller {
