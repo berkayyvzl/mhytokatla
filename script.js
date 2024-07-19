@@ -1,8 +1,11 @@
 let speed = 0;
+const speedIncrease = 5; // Her tıklamada artacak hız miktarı
 const propeller = document.getElementById('propeller');
+const clickSound = document.getElementById('click-sound');
 
 document.body.addEventListener('click', () => {
-    speed += 100; // Tıklama başına hız artırılır
+    speed += speedIncrease; // Tıklama başına hız artırılır
+    clickSound.play(); // Ses dosyasını çal
 });
 
 function updatePropeller() {
