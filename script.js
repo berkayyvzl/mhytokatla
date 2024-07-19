@@ -5,6 +5,7 @@ const clickSound = document.getElementById('click-sound');
 
 document.body.addEventListener('click', () => {
     speed += speedIncrease; // Tıklama başına hız artırılır
+    clickSound.currentTime = 0;
     clickSound.play(); // Ses dosyasını çal
 });
 
